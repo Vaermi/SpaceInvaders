@@ -1,12 +1,9 @@
 # Readme
----
 
 ## SpaceInvaders
 
 Hier handelt es sich um eine Übungsarbeit zum Thema Spieleentwicklung mit Unity und C#. Den Kurs zu diesem Code und noch weiteren Spielen findet man hier:
 [Udemy - Der komplette Unity Kurs](https://www.udemy.com/course/derkompletteunitykurs/)
-
----
 
 ### Technologie
 
