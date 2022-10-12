@@ -14,6 +14,11 @@ public class PlayerMovementController : MonoBehaviour
 
         Vector2 dir = new Vector2(h, v);
         GetComponent<Rigidbody2D>().velocity = dir.normalized * speed;
+
+        GetComponent<Animator>().SetBool("IsFlyingUp", (v > 0));
+        GetComponent<Animator>().SetBool("IsFlyingLeft", (h < 0));
+        GetComponent<Animator>().SetBool("IsFlyingRight", (h > 0));
+
     }
 
 
