@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 2424361621634227241, guid: 67a3dcef0e0869d43bd4a3b70fb15830, type: 3}
-  interval: 1
+  interval: 0.5
 --- !u!1 &6172391465940856241
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 6172391465940856244}
   - component: {fileID: 6172391465940856245}
   - component: {fileID: 5903869383279141405}
+  - component: {fileID: 2414568719133527044}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -215,3 +216,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!114 &2414568719133527044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6172391465940856241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b63953d7f744d498cdccf4297208c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
